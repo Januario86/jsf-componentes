@@ -52,4 +52,11 @@ public class Evento implements Serializable {
 		this.horario = horario;
 	}
 
+	@Override
+	public String toString() {
+		return "Evento [nome=" + nome + ", organizacao=" + organizacao + ", local=" + local + ", data=" + data
+				+ ", horario=" + horario + "]";
+	}
+	
+	
 }
